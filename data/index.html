@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>ESP Web Server</title>
+  <title>CARRITO SCORPIO</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -15,33 +15,33 @@
   <div class="content">
     <div class="cards">
       <div class="card">
-        <p class="card-title">GYROSCOPE</p>
+        <p class="card-title">GIROSCOPIO</p>
         <p><span class="reading">X: <span id="gyroX"></span> rad</span></p>
         <p><span class="reading">Y: <span id="gyroY"></span> rad</span></p>
         <p><span class="reading">Z: <span id="gyroZ"></span> rad</span></p>
       </div>
       <div class="card">
-        <p class="card-title">ACCELEROMETER</p>
+        <p class="card-title">ACELEROMETRO</p>
         <p><span class="reading">X: <span id="accX"></span> ms<sup>2</sup></span></p>
         <p><span class="reading">Y: <span id="accY"></span> ms<sup>2</sup></span></p>
         <p><span class="reading">Z: <span id="accZ"></span> ms<sup>2</sup></span></p>
       </div>
       <div class="card">
-        <p class="card-title">TEMPERATURE</p>
+        <p class="card-title">TEMPERATURA</p>
         <p><span class="reading"><span id="temp"></span> &deg;C</span></p>
-        <p class="card-title">3D ANIMATION</p>
+        <p class="card-title">ANIMACION 3D</p>
         <button id="reset" onclick="resetPosition(this)">RESET POSITION</button>
         <button id="resetX" onclick="resetPosition(this)">X</button>
         <button id="resetY" onclick="resetPosition(this)">Y</button>
         <button id="resetZ" onclick="resetPosition(this)">Z</button>
       </div>
       <div class="card">
-        <p class="card-title">CAR CONTROL</p>
-        <button onclick="sendCommand('F')">Forward</button>
-        <button onclick="sendCommand('B')">Backward</button>
-        <button onclick="sendCommand('L')">Left</button>
-        <button onclick="sendCommand('R')">Right</button>
-        <button onclick="sendCommand('S')">Stop</button>
+        <p class="card-title">Control</p>
+        <button onclick="sendCommand('F')">Delante</button>
+        <button onclick="sendCommand('B')">Atras</button>
+        <button onclick="sendCommand('L')">Izquierda</button>
+        <button onclick="sendCommand('R')">Derecha</button>
+        <button onclick="sendCommand('S')">Parar</button>
       </div>
     </div>
     <div class="cube-content">
